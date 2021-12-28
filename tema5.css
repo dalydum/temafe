@@ -1,0 +1,33 @@
+tema5.css body {
+    margin 0;
+    position: relative;
+}
+
+#popup {
+    position: fixed;
+    top: 40px;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    border-style: solid;
+    background-color: beige;
+}
+
+#popup .popupHeader {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#popup .headerClose {
+    padding: 3px 10px 3px 10px;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
+#header {
+    background-color: blue;
+    display: flex;
+}
