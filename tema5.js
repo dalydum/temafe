@@ -1,5 +1,5 @@
-let closeButtons = document.querrySelectorAll(#popup.headerClose);
-let ourCloseButto = closeButtons[0];
+let closeButtons = document.querySelectorAll("#popup .headerClose");
+let ourCloseButton = closeButtons[0];
 
 ourCloseButton.addEventListener("click", function() {
     let ourPopup = document.getElementById("popup");

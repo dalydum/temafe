@@ -6,9 +6,9 @@ tema5.css body {
 #popup {
     position: fixed;
     top: 40px;
-    bottom: 40px;
-    left: 40px;
-    right: 40px;
+    bottom: 750px;
+    left: 450px;
+    right: 450px;
     border-style: solid;
     background-color: beige;
 }
