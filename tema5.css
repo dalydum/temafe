@@ -1,33 +1,22 @@
-tema5.css body {
-    margin 0;
-    position: relative;
+padding-right: 5px;
+padding-top: 2px;
+cursor: pointer;
+
 }
 
-#popup {
-    position: fixed;
-    top: 40px;
-    bottom: 750px;
-    left: 450px;
-    right: 450px;
-    border-style: solid;
-    background-color: beige;
 }
-
-#popup .popupHeader {
-    display: flex;
-    flex-direction: row-reverse;
+#h11 {
+    color: blue;
 }
-
-#popup .headerClose {
-    padding: 3px 10px 3px 10px;
-    cursor: pointer;
+#p11 {
+    color: blue;
 }
-
-a {
-    cursor: pointer;
+#p22 {
+    color: blue;
 }
-
-#header {
-    background-color: blue;
-    display: flex;
+.s2 {
+    color: blue;
+}
+#ullist2 {
+    color: blue;
 }
