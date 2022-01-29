@@ -1,11 +1,6 @@
-let closeButtons = document.querySelectorAll("#popup .headerClose");
-let ourCloseButton = closeButtons[0];
 popup.style.display = 'none';
 
-ourCloseButton.addEventListener("click", function() {
-    let ourPopup = document.getElementById("popup");
-    ourPopup.style.display = "none";
-});
+
 // moving the h1 content
 var x = document.getElementById("h1").innerHTML;
 document.getElementById("h11").innerHTML = x;
