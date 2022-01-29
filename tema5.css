@@ -1,9 +1,3 @@
-.headerClose {
-    padding-right: 5px;
-    padding-top: 2px;
-    cursor: pointer;
-}
-
 #popupParent {
     position: fixed;
     top: 0;
@@ -35,6 +29,12 @@
 .popupHeader {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.headerClose {
+    padding-right: 5px;
+    padding-top: 2px;
+    cursor: pointer;
 }
 
 #h11 {
