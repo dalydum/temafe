@@ -6,8 +6,6 @@ closeButton.addEventListener('click', function() {
     popup.style.display = 'none';
 
     // moving the h1 content
-    var x = document.getElementById("h1").innerHTML;
-    document.getElementById("h11").innerHTML = x;
     var a = document.getElementById("h1").innerHTML;
     document.getElementById("h11").innerHTML = a;
 
@@ -15,7 +13,7 @@ closeButton.addEventListener('click', function() {
     var b = document.getElementById("p1").innerHTML;
     document.getElementById("p11").innerHTML = b;
 
-    //moving the p2 content
+    //moving the p2 contents
     var c = document.getElementById("p2").innerHTML;
     document.getElementById("p22").innerHTML = c;
 
