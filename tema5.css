@@ -1,22 +1,58 @@
-padding-right: 5px;
-padding-top: 2px;
-cursor: pointer;
-
+#popupParent {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
+#maindiv {
+    display: flex;
+    justify-content: center;
 }
+
+#popup {
+    height: 100px;
+    width: 50px;
+    background-color: seashell;
+    border-style: solid;
+}
+
+.maindivs {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(168, 150, 127);
+    padding-left: 3px;
+    margin-left: 10px;
+}
+
+.popupHeader {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.headerClose {
+    padding-right: 5px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
 #h11 {
     color: blue;
 }
+
 #p11 {
     color: blue;
 }
+
 #p22 {
     color: blue;
 }
+
 .s2 {
     color: blue;
 }
+
 #ullist2 {
     color: blue;
 }
